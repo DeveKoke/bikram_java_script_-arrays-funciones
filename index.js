@@ -36,6 +36,7 @@ function repetirString(str, num) {
 //        if ( num / i  === 0 && i )
 //     }
 // }
+// ! num % i == 0
 
 // ! 10
 // function ordenarArray (arr){
@@ -43,14 +44,13 @@ function repetirString(str, num) {
 //      return arr
 // }
 
-// !11
+// *11
 // function obtenerPares (arr){
 //     let pares = [];
 //     for (let i = 0; i < arr.length; i++) {
 //        if(arr[i]%2==0){
-//         pares[i] = pares.push(arr[i])
+//         pares.push(arr[i])
 //        }
-        
 //     }
 //     return pares
 // }
@@ -73,6 +73,8 @@ function repetirString(str, num) {
 // }
 
 // !14
+new array
+filter e indexof
 
 // *15
 const arrayNumerosNeg = [0, -1, -2, -3, -4, -5, -6, -7, -8, -9];
@@ -122,7 +124,7 @@ function obtenerImpares(arr) {
     let impares = [];
     for (let i = 0; i < arr.length; i++) {
        if(!arr[i]%2==0){
-        impares[i] = impares.push(arr[i])
+        impares.push(arr[i])
        }  
     }
     return impares
@@ -140,10 +142,10 @@ function sumarArray(arr) {
 
 // !26
 function multiplicarArray(arr) {
-    let resultado = 0;
+    let resultado = 1;
     for (let i = 0; i < arr.length; i++) {
         resultado *= arr[i];
         
     }
     return resultado;
-}
+}  console.log( multiplicarArray ([2, 3, 5]));
